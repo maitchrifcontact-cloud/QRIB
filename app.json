@@ -1,19 +1,25 @@
 {
   "expo": {
-    "name": "QREB",
-    "slug": "qreb",
+    "name": "قريب",
+    "slug": "qrib",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "dark",
-    "icon": "./assets/icon.png",
-    "android": {
-      "package": "com.qreb.app",
-      "versionCode": 1,
-      "permissions": ["CAMERA", "READ_MEDIA_IMAGES", "POST_NOTIFICATIONS"]
-    },
+    "userInterfaceStyle": "light",
+    "scheme": "qrib",
     "plugins": [
-      "expo-image-picker",
-      "expo-notifications"
-    ]
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.qrib.app",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.qrib.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    }
   }
 }
